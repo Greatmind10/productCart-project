@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="productList.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=cancel" />
+    <title>Product List with Cart</title>
+  </head>
+
+  <body>
+    <h1>Desserts</h1>
+    <!--Grid list of products-->
+    <div class="product-list-containair" id="product-list">
+      <div class="product" id="product1">
+        <div>
+          <img
+            src="/image/baklava.jpg"
+            alt="baklava"
+            class="img-class"
+            id="img1"
+          />
+          <button class="btn1" onclick="addToCart('Baklava', 10)">
+            <img
+              src="image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to cart
+          </button>
+        </div>
+        <h3>Baklava</h3>
+        <p class="description">Pistachio Baklava</p>
+        <p class="price">Price: $10.00</p>
+      </div>
+
+      <div class="product" id="product1">
+        <img src="/image/brown-cake.jpg" alt="browncake" class="img-class" />
+        <div class="button-and-img-container">
+          <button class="btn1" onclick="addToCart('Brownie', 20)">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="icon-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Brownie</h3>
+        <p class ="description">Salted Caramel Brownie</p>
+        <p class="price">Price: $20.00</p>
+      </div>
+
+      <div class="product" id="product2">
+        <img
+          src="/image/image-creme-brulee-desktop.jpg"
+          alt=""
+          class="img-class"
+        />
+        <div class="button-and-img-container">
+          <button class="btn1" onclick="addToCart('Creme Brulee', 20)">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Creme Brulee</h3>
+        <p class ="description">Vanila Bean Creme Brulee</p>
+        <p class="price">Price: $20.00</p>
+      </div>
+
+      <div class="product" id="product2">
+        <img
+          src="/image/image-macaron-desktop.jpg"
+          alt="macaron"
+          class="img-class"
+        />
+        <div class="button-and-img-container">
+          <button class="btn1" onclick="addToCart('Macaron', 30)">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Macaron</h3>
+        <p class="description">Macaron Mix of Five</p>
+        <p class="price">Price: $30.00</p>
+      </div>
+
+      <div class="product" id="product2">
+        <img
+          src="/image/image-meringue-desktop.jpg"
+          alt="meringue"
+          class="img-class"
+        />
+        <div class="button-and-img-container">
+          <button class="btn1" onclick="addToCart('Meringue', 30)">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Meringue</h3>
+        <p class="description">Lemon Meringue Pie</p>
+        <p class="price">Price: $50.00</p>
+      </div>
+
+      <div class="product" id="product2">
+        <img
+          src="/image/image-panna-cotta-desktop.jpg"
+          alt="panna"
+          class="img-class"
+        />
+        <div class="button-and-img-container">
+          <button class="btn1" onclick="addToCart('Panna Cotta', 35)">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Panna Cotta</h3>
+        <p class="description">Vanilla Panna Cotta</p>
+        <p class="price">Price: $35.00</p>
+      </div>
+
+      <div class="product" id="product2">
+        <img src="/image/image-tiramisu-desktop.jpg" alt="" class="img-class" />
+        <div>
+          <button class="btn1" onclick="addToCart('Tiramisu', 15)">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Tiramisu</h3>
+        <p class ="description">Classic Tiramisu</p>
+        <p class="price">Price: $15.00</p>
+      </div>
+
+      <div class="product" id="product2">
+        <img src="/image/image-waffle-desktop.jpg" alt="" class="img-class" />
+        <div class="button">
+          <button class="btn1" onclick="addToCart('Waffle',100)">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Waffle</h3>
+        <p class="description">Waffle with Berries</p>
+        <p class="price">Price: $100.00</p>
+      </div>
+
+      <div class="product" id="product2" class="img-class">
+        <img src="/image/redcake.jpg" alt="" />
+        <div class="button-and-img-container">
+          <button class="btn1" onclick="addToCart('Cake', 50)" id="remove-button">
+            <img
+              src="/image/add_shopping_cart_27dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+              alt="cart-icon"
+              class="icon-class"
+            />Add to Cart
+          </button>
+        </div>
+        <h3>Cake</h3>
+        <p class="description">Red Velvet Cake</p>
+        <p class="price">Price: $50.00</p>
+      </div>
+    </div>
+    <div class="cart" class="cart1">
+      <aside>
+        <h2>Cart</h2>
+        <p>Your order(<span id="itemcount"></span>)</p>
+        <ul id="cart-items">
+        </ul>
+        <p>Total:<span id="total-price">0.00</span></p>
+        <button id="newOrder-btn">Start New Order</button>
+        </aside>
+    </div>
+        <script src="product.js"></script>
+  </body>
+</html>

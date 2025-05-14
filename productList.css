@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:none;
+}
+body {
+    margin-top: 5rem;
+    font-family: Arial, sans-serif;
+    margin-right: 5rem;
+}
+.product-list-containair {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 2rem;
+}
+.product-list-containair {
+    width: 78%;
+    /* margin: 0 auto;*/
+    padding: 20px;
+}
+.product {
+   background-color: rgba(0,128,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h1 {
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+button .icon-class {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    margin-left: -1rem;
+}
+.img-class {
+    position: relative;
+}
+
+.img-class {
+    position: relative;
+}
+
+button {
+    background-color: rgb(202, 155, 155);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 2rem;
+    width: 50%;
+    font-size: small;
+
+}
+.btn1 {
+    position: relative;
+    bottom: 1rem;
+    left: 28%;
+}
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding-left: rem;
+    gap: 1px;
+}
+.price {
+    color: red;
+    font-weight: bold;
+}
+.description {
+    font-size: medium;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    color: rgb(202, 155, 155);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cart1{
+    background-color:rgb(122, 49, 49);
+    box-shadow: #333 0px 0px 10px;    
+    border-radius: 50%;
+    width: 50%;
+    height: 30px;
+}
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    min-height: 50%;
+    background-color:rgb(214, 171, 91);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    list-style-type: none;
+    display: "";
+} 
+aside ul {
+    list-style-type: none;
+    padding: 0
+}
+
+#newOrder-btn{
+    background-color: #4CAF50;
+    color:white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    min-width: 100px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
