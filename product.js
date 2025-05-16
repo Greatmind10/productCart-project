@@ -97,6 +97,7 @@ function resetCart() {
   totalPriceElement.innerText = "$0";
   const count = document.getElementById('itemcount');
   count.innerText = "0";
+  alert("Order confirmed, enjoy your meal. Please start a new order")
 }
 
 
